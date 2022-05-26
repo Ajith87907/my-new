@@ -3,7 +3,7 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                sh 'echo this is first branch'
+                echo "this is first branch"
                 }
             }
         }
