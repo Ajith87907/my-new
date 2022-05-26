@@ -3,11 +3,9 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                    sh """
-                    echo "this is first branch"
-                    """
-                }
-            }
+              	    echo "cloning failed" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
         }
 }
-              	
