@@ -3,7 +3,6 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                  echo "this is first branch"
                 }
             }
         }
