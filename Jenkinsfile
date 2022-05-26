@@ -3,7 +3,7 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                    echo "this is main , not master"
+                    echo "this is main , not master and this is pull request"
                 }
             }
         }
