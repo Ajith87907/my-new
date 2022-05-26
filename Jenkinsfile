@@ -3,7 +3,7 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                    echo "this is masteddsdfr, yeahhhh ===+++njdfbhidfuvbufi"
+                    echo "this is main , not master"
                 }
             }
         }
