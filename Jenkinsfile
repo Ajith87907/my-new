@@ -3,7 +3,7 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-                    echo "this is master, yeahhhh"
+                    echo "this is master, yeahhhh ==="
                 }
             }
         }
